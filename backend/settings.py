@@ -18,7 +18,8 @@ ALLOWED_HOSTS = ['*']
 CSRF_TRUSTED_ORIGINS = ['https://*.web-production-e20e7.up.railway.app',
                         'https://*.127.0.0.1', 
                         'https://*.web-production-9cae5.up.railway.app', 
-                        'https://*.web-production-e940.up.railway.app']
+                        'https://*.web-production-e940.up.railway.app',
+                        'https://*.web-production-fda0.up.railway.app/']
 
 
 # Application definition
@@ -86,9 +87,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': 'EzsjmTzykqXFZgUjBrBn',
-        'HOST': 'containers-us-west-207.railway.app',
-        'PORT': '7595',
+        'PASSWORD': 'sIaoWgLRubH3OWuExWxo',
+        'HOST': 'containers-us-west-8.railway.app',
+        'PORT': '6123',
     }
 }
 
